@@ -1,0 +1,8 @@
+---
+- hosts: jarvis
+  tasks:
+    - name: loop items
+      debug:
+        msg: "{{ item.firstname }} {{ item.lastname}}"
+      with_items:
+        - { firstname: Godwin, lastname: Theophilus}

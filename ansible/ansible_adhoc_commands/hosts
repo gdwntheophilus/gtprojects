@@ -1,0 +1,8 @@
+[jarvis]
+192.168.0.106 ansible_user=jarvis ansible_ssh_pass=Mathi@123
+
+
+[MACHINE_NAME]
+MACHINE_NAME hostname=MACHINE_NAME ansible_ssh_host=IP_ADDRESS ansible_port=SSH_PORT
+ansible_connection=ssh ansible_user=USER ansible_ssh_extra_args="-o StrictHostKeyChecking=no -
+o UserKnownHostsFile=/dev/null"

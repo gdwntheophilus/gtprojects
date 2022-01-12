@@ -1,0 +1,16 @@
+---
+- hosts: home
+  tasks: 
+   - name: say
+     debug:
+       msg: "{{ apache_port }}"
+- hosts: jarvis
+  tasks: 
+   - name: say
+     debug:
+       msg: "{{ apache_port }}"
+- hosts: all
+  tasks: 
+   - name: say
+     debug:
+       msg: "{{ apache_port }}"

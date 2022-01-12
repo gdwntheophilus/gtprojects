@@ -1,0 +1,6 @@
+[jarvis]
+localhost ansible_user=ironman ansible_ssh_pass=Mathi@123
+
+
+[home]
+localhost ansible_user=ironman ansible_ssh_pass=Mathi@123

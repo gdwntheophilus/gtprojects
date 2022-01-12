@@ -1,0 +1,2 @@
+[jarvis]
+home ansible_host=localhost

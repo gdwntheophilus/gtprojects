@@ -1,0 +1,6 @@
+---
+- hosts: jarvis
+  tasks: 
+   - name: say
+     debug:
+       msg: "Hello World"
