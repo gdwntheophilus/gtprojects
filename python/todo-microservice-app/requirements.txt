@@ -1,0 +1,4 @@
+cassandra-driver==3.27.0
+Flask
+Flask-Cors
+
